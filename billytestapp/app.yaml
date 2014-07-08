@@ -12,6 +12,15 @@ handlers:
 - url: /googleads-ima-html5
   static_dir: googleads-ima-html5
 
+- url: /googleads-ima-flash/publish
+  static_dir: googleads-ima-flash/publish
+  
+- url: /billyFlashIMA3FDT
+  static_dir: billyFlashIMA3FDT
+
+- url: /IMA2
+  static_dir: IMA2
+
 - url: .*
   script: main.app
 
